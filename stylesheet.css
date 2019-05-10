@@ -1,0 +1,86 @@
+.page {
+    width: 1500px;
+    height: 1100;
+    border-style: groove;
+}
+
+.logo {
+    width: 1495px;
+    height: 100px;
+    border-style: groove;
+    background-image: url('images/logo.jpg');
+    background-repeat: no-repeat;
+    background-color: lightblue;
+}
+
+.logo h1 {
+    float: right;
+}
+
+.header {
+    width: 1495px;
+    height: 30px;
+    border-style: groove;
+    background-color: lightblue;
+    margin-top: 5px;
+}
+
+.header a {
+    color: blue;
+    text-decoration: none;
+    width: 10px;
+    height: 10px;
+}
+
+.header a:hover {
+    background-color: white;
+}
+
+.main {
+    width: 1495px;
+    height: auto;
+    border-style: groove;
+    margin-top: 5px;
+}
+
+.main .image {
+    width: 500px;
+    height: 500px;
+    border-style: groove;
+    background-image: url('images/gif.gif');
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.main .news {
+    width: 950px;
+    height: 500px;
+    border-style: groove;
+    float: right;
+}
+
+.main .news h1 {
+    color: blue;
+    background-color: lightblue;
+}
+
+.main .last {
+    width: 1495px;
+    height: 150;
+    border-style: groove;
+}
+
+.main .last h1 {
+    color: black;
+    text-align: center;
+}
+
+.main .last h3 {
+    color: lightblack;
+    text-align: center;
+}
+
+.page.end {
+    color: white;
+    background-color: black;
+}
